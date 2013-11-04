@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_3BMlQDy7EeOYLN2--QYGPQ" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_9cAskDy7EeOYLN2--QYGPQ" name="Report-Generator">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DZszADy8EeOYLN2--QYGPQ" name="Plan ausgeben" isAbstract="true"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TxC04Dy8EeOYLN2--QYGPQ" name="Stundenveranstaltungsplan ausgeben" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_fDL3gDy8EeOYLN2--QYGPQ" general="_DZszADy8EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VhamUDy8EeOYLN2--QYGPQ" name="Lehrveranstaltungsplan ausgeben" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_eRZ1QDy8EeOYLN2--QYGPQ" general="_DZszADy8EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WozFIDy8EeOYLN2--QYGPQ" name="Raumveranstaltungsplan ausgeben" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dgmqcDy8EeOYLN2--QYGPQ" general="_DZszADy8EeOYLN2--QYGPQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_A6nhcDy8EeOYLN2--QYGPQ" name="Fakultätsmitarbeiter"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sgct4Dy8EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt ausgeben" memberEnd="_sgct4Ty8EeOYLN2--QYGPQ _sgct5Dy8EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sgct4Ty8EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_sgct4Dy8EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sgct4jy8EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sgct4zy8EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sgct5Dy8EeOYLN2--QYGPQ" name="geschäftsobjekt ausgeben" type="_DZszADy8EeOYLN2--QYGPQ" association="_sgct4Dy8EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sgct5Ty8EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sgct5jy8EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0XcfUDy8EeOYLN2--QYGPQ" name="Editor">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7kFsMDy8EeOYLN2--QYGPQ" name="Geschäftsobjekt löschen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VD8KsDy9EeOYLN2--QYGPQ" name="Dozent löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cLrpcDy9EeOYLN2--QYGPQ" general="_7kFsMDy8EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_TtT94DzcEeOIIYwir7YuIA" general="_AI1iYDzAEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_V-z3gDy9EeOYLN2--QYGPQ" name="Raum löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cpV10Dy9EeOYLN2--QYGPQ" general="_7kFsMDy8EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_oQbeoDzGEeOYLN2--QYGPQ" general="_3niFIDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Wv_c0Dy9EeOYLN2--QYGPQ" name="Belegung löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dEwmgDy9EeOYLN2--QYGPQ" general="_7kFsMDy8EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_8_a2MDzGEeOYLN2--QYGPQ" general="_atRf0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZBlsADy9EeOYLN2--QYGPQ" name="Lehrveranstaltung löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_daN5IDy9EeOYLN2--QYGPQ" general="_7kFsMDy8EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_kRSIgDzGEeOYLN2--QYGPQ" general="_JFUAEDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_d_oTUDy9EeOYLN2--QYGPQ" name="A_geschäftsobjekt löschen_fakultätsmitarbeiter" memberEnd="_d_oTUTy9EeOYLN2--QYGPQ _d_oTVDy9EeOYLN2--QYGPQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_d_oTUTy9EeOYLN2--QYGPQ" name="geschäftsobjekt löschen" type="_7kFsMDy8EeOYLN2--QYGPQ" association="_d_oTUDy9EeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d_oTUjy9EeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d_oTUzy9EeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_d_oTVDy9EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_d_oTUDy9EeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d_oTVTy9EeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d_oTVjy9EeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qjqboDy9EeOYLN2--QYGPQ" name="Geschäftsobjekt anlegen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sZi_MDy9EeOYLN2--QYGPQ" name="Lehveranstaltung anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4G264Dy9EeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_gdJvkDzGEeOYLN2--QYGPQ" general="_JFUAEDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vHcv4Dy9EeOYLN2--QYGPQ" name="Dozent anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3Fu1EDy9EeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_UH_HsDzcEeOIIYwir7YuIA" general="_AI1iYDzAEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v92MYDy9EeOYLN2--QYGPQ" name="Raum anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2vFPoDy9EeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_omyJIDzGEeOYLN2--QYGPQ" general="_3niFIDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xHxB0Dy9EeOYLN2--QYGPQ" name="Belegung anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3c1tgDy9EeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_-D-DcDzGEeOYLN2--QYGPQ" general="_atRf0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_x5PiEDy9EeOYLN2--QYGPQ" name="Semesterverband anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3ycxIDy9EeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_r1L-0DzGEeOYLN2--QYGPQ" general="_K1zQ0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Hmq30Dy-EeOYLN2--QYGPQ" name="Geschäftsobjekt verwalten"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JFUAEDy-EeOYLN2--QYGPQ" name="Lehveranstaltung verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qpndMDy-EeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_QW_MADzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OqzB4Dy-EeOYLN2--QYGPQ" name="Lehrveranstaltungsbezeichnung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4DZbkDzbEeOIIYwir7YuIA" general="_NpDx4DzbEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_REAU8Dy-EeOYLN2--QYGPQ" name="Semesterverbandszuordnung zu LV ändern " isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2zNmEDzbEeOIIYwir7YuIA" general="_NpDx4DzbEeOIIYwir7YuIA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_52AE0DzfEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+      <include xmi:type="uml:Include" xmi:id="_99vV0D1ZEeOh26AVaKdbUA" addition="_k5dHgDzhEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SSQQwDy-EeOYLN2--QYGPQ" name="Dozentenzuordnung zu LV ändern " isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TD3NsDzbEeOIIYwir7YuIA" general="_NpDx4DzbEeOIIYwir7YuIA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_e9zv0DzeEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+      <include xmi:type="uml:Include" xmi:id="_-uxxMD1ZEeOh26AVaKdbUA" addition="_qnH08DzhEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VsI9sDy-EeOYLN2--QYGPQ" name="Semesterzugehörigkeit ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3X4ZYDzbEeOIIYwir7YuIA" general="_NpDx4DzbEeOIIYwir7YuIA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_zy1ogDzfEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3niFIDy-EeOYLN2--QYGPQ" name="Raum verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9MwoQDy-EeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_O6JakDzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5xYtkDy-EeOYLN2--QYGPQ" name="Raumbezeichnung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="__Zv-EDzbEeOIIYwir7YuIA" general="_7fz4EDzbEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_60TjIDy-EeOYLN2--QYGPQ" name="Raumkapazität ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="__HRG8DzbEeOIIYwir7YuIA" general="_7fz4EDzbEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_K1zQ0Dy_EeOYLN2--QYGPQ" name="Semesterverband verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_RwbgoDy_EeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_Pq4T8DzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MOLZADy_EeOYLN2--QYGPQ" name="Semesterverbandsgröße ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_q0mpkDzcEeOIIYwir7YuIA" general="_ouLvoDzcEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NKPYoDy_EeOYLN2--QYGPQ" name="Semesterbezeichnung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qfvz4DzcEeOIIYwir7YuIA" general="_ouLvoDzcEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_atRf0Dy_EeOYLN2--QYGPQ" name="Belegung verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jhXysDy_EeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_Okrg4DzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_crW9IDy_EeOYLN2--QYGPQ" name="Raumbelegung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NnBfoDzdEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dsV5ADy_EeOYLN2--QYGPQ" name="Zeitslotbelegung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NTzBoDzdEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qtvSwDy_EeOYLN2--QYGPQ" name="Dozentenname ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_DupLcDzAEeOYLN2--QYGPQ" general="_AI1iYDzAEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vJDAcDy_EeOYLN2--QYGPQ" name="A_geschäftsobjekt bearbeiten_fakultätsmitarbeiter" memberEnd="_vJDAcTy_EeOYLN2--QYGPQ _vJDAdDy_EeOYLN2--QYGPQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vJDAcTy_EeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_vJDAcDy_EeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vJDAcjy_EeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vJDAczy_EeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vJDAdDy_EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_vJDAcDy_EeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vJDAdTy_EeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vJDAdjy_EeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AI1iYDzAEeOYLN2--QYGPQ" name="Dozent verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_EEaAEDzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_QBO-cDzAEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Q2lSEDzAEeOYLN2--QYGPQ" name="A_geschäftsobjekt bearbeiten_fakultätsmitarbeiter" memberEnd="_Q2lSETzAEeOYLN2--QYGPQ _Q2lSFDzAEeOYLN2--QYGPQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Q2lSETzAEeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_Q2lSEDzAEeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q2lSEjzAEeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q2lSEzzAEeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Q2lSFDzAEeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_Q2lSEDzAEeOYLN2--QYGPQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q2lSFTzAEeOYLN2--QYGPQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q2lSFjzAEeOYLN2--QYGPQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5K5N8DzBEeOYLN2--QYGPQ" name="Zeitslot verwalten">
+      <generalization xmi:type="uml:Generalization" xmi:id="_63FqADzBEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hTLVcDzCEeOYLN2--QYGPQ" name="Zeitslot anlegen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jQ0G0DzCEeOYLN2--QYGPQ" general="_qjqboDy9EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_Dd-1EDzHEeOYLN2--QYGPQ" general="_8prMgDzCEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_weiFUDzCEeOYLN2--QYGPQ" name="Zeitslot löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_y92ncDzCEeOYLN2--QYGPQ" general="_7kFsMDy8EeOYLN2--QYGPQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_D232MDzHEeOYLN2--QYGPQ" general="_8prMgDzCEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8prMgDzCEeOYLN2--QYGPQ" name="Zeitslot verwalten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ACN1oDzDEeOYLN2--QYGPQ" general="_Hmq30Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9scREDzCEeOYLN2--QYGPQ" name="Zeitslotendzeit ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="__XPnMDzcEeOIIYwir7YuIA" general="_8uPkoDzcEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UNiA8DzaEeOIIYwir7YuIA" name="Zeitslotstartzeit ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-8asYDzcEeOIIYwir7YuIA" general="_8uPkoDzcEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fKk9UDzaEeOIIYwir7YuIA" name="A_zeitslot verwalten_fakultätsmitarbeiter" memberEnd="_fKk9UTzaEeOIIYwir7YuIA _fKk9VDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fKk9UTzaEeOIIYwir7YuIA" name="zeitslot verwalten" type="_8prMgDzCEeOYLN2--QYGPQ" association="_fKk9UDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fKk9UjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fKk9UzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fKk9VDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_fKk9UDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fKk9VTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fKk9VjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ivywgDzaEeOIIYwir7YuIA" name="A_dozent verwalten_fakultätsmitarbeiter" memberEnd="_ivywgTzaEeOIIYwir7YuIA _ivywhDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ivywgTzaEeOIIYwir7YuIA" name="dozent verwalten" type="_AI1iYDzAEeOYLN2--QYGPQ" association="_ivywgDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ivywgjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ivywgzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ivywhDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_ivywgDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ivywhTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ivywhjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_m6TpIDzaEeOIIYwir7YuIA" name="A_belegung verwalten_fakultätsmitarbeiter" memberEnd="_m6TpITzaEeOIIYwir7YuIA _m6TpJDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_m6TpITzaEeOIIYwir7YuIA" name="belegung verwalten" type="_atRf0Dy_EeOYLN2--QYGPQ" association="_m6TpIDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m6TpIjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m6TpIzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_m6TpJDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_m6TpIDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m6TpJTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m6TpJjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_o6xsEDzaEeOIIYwir7YuIA" name="A_semesterverband verwalten_fakultätsmitarbeiter" memberEnd="_o6xsETzaEeOIIYwir7YuIA _o6xsFDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_o6xsETzaEeOIIYwir7YuIA" name="semesterverband verwalten" type="_K1zQ0Dy_EeOYLN2--QYGPQ" association="_o6xsEDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o6xsEjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o6xsEzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_o6xsFDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_o6xsEDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o6xsFTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o6xsFjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sYiMYDzaEeOIIYwir7YuIA" name="A_raum verwalten_fakultätsmitarbeiter" memberEnd="_sYiMYTzaEeOIIYwir7YuIA _sYiMZDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sYiMYTzaEeOIIYwir7YuIA" name="raum verwalten" type="_3niFIDy-EeOYLN2--QYGPQ" association="_sYiMYDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sYiMYjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sYiMYzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sYiMZDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_sYiMYDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sYiMZTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sYiMZjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xe8FgDzaEeOIIYwir7YuIA" name="A_lehveranstaltung verwalten_fakultätsmitarbeiter" memberEnd="_xe8FgTzaEeOIIYwir7YuIA _xe8FhDzaEeOIIYwir7YuIA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xe8FgTzaEeOIIYwir7YuIA" name="lehveranstaltung verwalten" type="_JFUAEDy-EeOYLN2--QYGPQ" association="_xe8FgDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xe8FgjzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xe8FgzzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xe8FhDzaEeOIIYwir7YuIA" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_xe8FgDzaEeOIIYwir7YuIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xe8FhTzaEeOIIYwir7YuIA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xe8FhjzaEeOIIYwir7YuIA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NpDx4DzbEeOIIYwir7YuIA" name="Lehveranstaltung bearbeiten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2ctxoDzbEeOIIYwir7YuIA" general="_JFUAEDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7fz4EDzbEeOIIYwir7YuIA" name="Raum bearbeiten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-0oe0DzbEeOIIYwir7YuIA" general="_3niFIDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_j7eOkDzcEeOIIYwir7YuIA" name="Semesterverband löschen" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_wHgtoDzcEeOIIYwir7YuIA" general="_K1zQ0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ouLvoDzcEeOIIYwir7YuIA" name="Semesterverband bearbeiten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_rE2sEDzcEeOIIYwir7YuIA" general="_K1zQ0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8uPkoDzcEeOIIYwir7YuIA" name="Zeitslot bearbeiten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="__ss50DzcEeOIIYwir7YuIA" general="_8prMgDzCEeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LopHYDzdEeOIIYwir7YuIA" name="Belegung bearbeiten" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_M-VvADzdEeOIIYwir7YuIA" general="_atRf0Dy_EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SI19oDzgEeOIIYwir7YuIA" name="Lehrveranstaltungszuordnung zu Belegung ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XzjdsDzgEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_k5dHgDzhEeOIIYwir7YuIA" name="Semesterverbandszuordnung zu Belegung ändern " isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tffwQDzhEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+      <include xmi:type="uml:Include" xmi:id="_IS_5cD1aEeOh26AVaKdbUA" addition="_REAU8Dy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qnH08DzhEeOIIYwir7YuIA" name="Dozentenzuordnung zu Belegung ändern " isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_swANADzhEeOIIYwir7YuIA" general="_LopHYDzdEeOIIYwir7YuIA"/>
+      <include xmi:type="uml:Include" xmi:id="_HvrJ8D1aEeOh26AVaKdbUA" addition="_SSQQwDy-EeOYLN2--QYGPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_P7RyUDy-EeOYLN2--QYGPQ" name="Lehrveranstaltungsumfang ändern" isLeaf="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3vIbwDzbEeOIIYwir7YuIA" general="_NpDx4DzbEeOIIYwir7YuIA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4celkDy9EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt anlegen" memberEnd="_4celkTy9EeOYLN2--QYGPQ _4cellDy9EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4celkTy9EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_4celkDy9EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4celkjy9EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4celkzy9EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4cellDy9EeOYLN2--QYGPQ" name="geschäftsobjekt anlegen" type="_qjqboDy9EeOYLN2--QYGPQ" association="_4celkDy9EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4cellTy9EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4celljy9EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sFuO0Dy-EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt bearbeiten" memberEnd="_sFuO0Ty-EeOYLN2--QYGPQ _sFuO1Dy-EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sFuO0Ty-EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_sFuO0Dy-EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFuO0jy-EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFuO0zy-EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sFuO1Dy-EeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_sFuO0Dy-EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFuO1Ty-EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFuO1jy-EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-t8HIDy-EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt bearbeiten" memberEnd="_-t8HITy-EeOYLN2--QYGPQ _-t8HJDy-EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-t8HITy-EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_-t8HIDy-EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-t8HIjy-EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-t8HIzy-EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-t8HJDy-EeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_-t8HIDy-EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-t8HJTy-EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-t8HJjy-EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SLGqcDy_EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt bearbeiten" memberEnd="_SLGqcTy_EeOYLN2--QYGPQ _SLGqdDy_EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SLGqcTy_EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_SLGqcDy_EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SLGqcjy_EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SLGqczy_EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SLGqdDy_EeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_SLGqcDy_EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SLGqdTy_EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SLGqdjy_EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j5Xb8Dy_EeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt bearbeiten" memberEnd="_j5Xb8Ty_EeOYLN2--QYGPQ _j5Xb9Dy_EeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j5Xb8Ty_EeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_j5Xb8Dy_EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5Xb8jy_EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5Xb8zy_EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j5Xb9Dy_EeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_j5Xb8Dy_EeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5Xb9Ty_EeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5Xb9jy_EeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Aeh-MDzDEeOYLN2--QYGPQ" name="A_fakultätsmitarbeiter_geschäftsobjekt bearbeiten" memberEnd="_Aeh-MTzDEeOYLN2--QYGPQ _Aeh-NDzDEeOYLN2--QYGPQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aeh-MTzDEeOYLN2--QYGPQ" name="fakultätsmitarbeiter" type="_A6nhcDy8EeOYLN2--QYGPQ" association="_Aeh-MDzDEeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aeh-MjzDEeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aeh-MzzDEeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aeh-NDzDEeOYLN2--QYGPQ" name="geschäftsobjekt bearbeiten" type="_Hmq30Dy-EeOYLN2--QYGPQ" association="_Aeh-MDzDEeOYLN2--QYGPQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aeh-NTzDEeOYLN2--QYGPQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aeh-NjzDEeOYLN2--QYGPQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
