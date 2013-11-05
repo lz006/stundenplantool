@@ -1,7 +1,9 @@
 package com.hdm.stundenplantool.server;
 
 import com.hdm.stundenplantool.client.GreetingService;
+import com.hdm.stundenplantool.server.db.DozentMapper;
 import com.hdm.stundenplantool.shared.FieldVerifier;
+import com.hdm.stundenplantool.shared.businessobject.Dozent;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
@@ -10,7 +12,8 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 @SuppressWarnings("serial")
 public class GreetingServiceImpl extends RemoteServiceServlet implements
 		GreetingService {
-
+	
+	
 	public String greetServer(String input) throws IllegalArgumentException {
 		// Verify that the input is valid. 
 		if (!FieldVerifier.isValidName(input)) {
@@ -19,6 +22,12 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 			throw new IllegalArgumentException(
 					"Name must be at least 4 characters long");
 		}
+		
+		//Erzeugung einer DozentMapper-Instanz um Dozenten-Objekte aus und in die DB abzubilden
+		DozentMapper dozentTest = DozentMapper.dozentMapper();
+		
+		//Anlegen eines Dozenten in die DB
+		dozentTest.insertIntoDB(new Dozent(11112, input, input));
 
 		String serverInfo = getServletContext().getServerInfo();
 		String userAgent = getThreadLocalRequest().getHeader("User-Agent");
@@ -26,8 +35,10 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		// Escape data from the client to avoid cross-site script vulnerabilities.
 		input = escapeHtml(input);
 		userAgent = escapeHtml(userAgent);
+		
+		
 
-		return "Hello, " + input + "!<br><br>I am running " + serverInfo
+		return "Hello, " + input +"!<br><br>I am running " + serverInfo
 				+ ".<br><br>It looks like you are using:<br>" + userAgent;
 	}
 
@@ -45,4 +56,6 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		return html.replaceAll("&", "&amp;").replaceAll("<", "&lt;")
 				.replaceAll(">", "&gt;");
 	}
+
+	
 }
