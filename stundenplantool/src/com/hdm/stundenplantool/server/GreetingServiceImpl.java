@@ -27,7 +27,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		DozentMapper dozentTest = DozentMapper.dozentMapper();
 		
 		//Anlegen eines Dozenten in die DB
-		dozentTest.insertIntoDB(new Dozent(11112, input, input));
+		dozentTest.insertIntoDB(new Dozent(12345, input, input));
 
 		String serverInfo = getServletContext().getServerInfo();
 		String userAgent = getThreadLocalRequest().getHeader("User-Agent");
