@@ -1,8 +1,8 @@
 package com.hdm.stundenplantool.shared.businessobject;
 
-/*Ein Objekt dieser Klasse ist eine Repräsentation eines realen Dozenten
+/*Ein Objekt dieser Klasse ist eine Repräsentation eines realen Stundenplans
  * @author: Lucas Zanella
- * @implement: Lucas Zanella
+ * @implement: Timm Roth
  */
 
 public class Stundenplan extends BusinessObject {
