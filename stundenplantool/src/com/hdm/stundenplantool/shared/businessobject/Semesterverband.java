@@ -5,9 +5,9 @@ package com.hdm.stundenplantool.shared.businessobject;
  * @implement: Mathias Zimmermann
  */
 public class Semesterverband {
-	public Semesterverband (int SemesterverbandID, String Semesterverbandbezeichnung, String Studiengang, int AnzahlStudenten, String Jahrgang) {
+	public Semesterverband (int SemesterverbandID, String Semesterverbandsbezeichnung, String Studiengang, int AnzahlStudenten, String Jahrgang) {
 		this.SemesterverbandID = SemesterverbandID;
-		this.Semesterverbandbezeichnung = Semesterverbandbezeichnung;
+		this.Semesterverbandsbezeichnung = Semesterverbandsbezeichnung;
 		this.Studiengang = Studiengang;
 		this.AnzahlStudenten = AnzahlStudenten;
 		this.Jahrgang = Jahrgang;
@@ -15,7 +15,7 @@ public class Semesterverband {
 	}
 	
 	private int SemesterverbandID;
-	private String Semesterverbandbezeichnung;
+	private String Semesterverbandsbezeichnung;
 	private String Studiengang;
 	private String Jahrgang;
 	private int AnzahlStudenten;
@@ -28,11 +28,11 @@ public class Semesterverband {
 	public void setSemesterverbandID(int SemesterverbandID) {
 		this.SemesterverbandID = SemesterverbandID;
 	}
-	public String getSemesterverbandbezeichnung() {
-		return Semesterverbandbezeichnung;
+	public String getSemesterverbandsbezeichnung() {
+		return Semesterverbandsbezeichnung;
 	}
-	public void setSemesterverbandbezeichnung(String Semesterverbandbezeichnung) {
-		this.Semesterverbandbezeichnung = Semesterverbandbezeichnung;
+	public void setSemesterverbandbezeichnung(String Semesterverbandsbezeichnung) {
+		this.Semesterverbandsbezeichnung = Semesterverbandsbezeichnung;
 	}
 	public String getStudiengang() {
 		return Studiengang;
