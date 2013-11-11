@@ -1,6 +1,7 @@
 package com.hdm.stundenplantool.client;
 
 import com.hdm.stundenplantool.shared.FieldVerifier;
+import com.hdm.stundenplantool.shared.businessobject.Dozent;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -12,6 +13,7 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.HTML;
+import com.google.gwt.user.client.ui.IntegerBox;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
@@ -40,8 +42,12 @@ public class Stundenplantool implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 		final Button sendButton = new Button("Send");
-		final TextBox nameField = new TextBox();
-		nameField.setText("GWT User");
+		final IntegerBox nameField1 = new IntegerBox();
+		final TextBox nameField2 = new TextBox();
+		final TextBox nameField3 = new TextBox();
+		nameField1.setText("ID");
+		nameField2.setText("Vorname");
+		nameField3.setText("Nachname");
 		final Label errorLabel = new Label();
 
 		// We can add style names to widgets
@@ -49,14 +55,18 @@ public class Stundenplantool implements EntryPoint {
 
 		// Add the nameField and sendButton to the RootPanel
 		// Use RootPanel.get() to get the entire body element
-		RootPanel.get("nameFieldContainer").add(nameField);
+		RootPanel.get("nameFieldContainer1").add(nameField1);
+		RootPanel.get("nameFieldContainer2").add(nameField2);
+		RootPanel.get("nameFieldContainer3").add(nameField3);
 		RootPanel.get("sendButtonContainer").add(sendButton);
 		RootPanel.get("errorLabelContainer").add(errorLabel);
 
 		// Focus the cursor on the name field when the app loads
-		nameField.setFocus(true);
-		nameField.selectAll();
-
+		nameField1.setFocus(true);
+		nameField1.selectAll();
+		nameField2.setFocus(false);
+		nameField3.setFocus(false);
+		
 		// Create the popup dialog box
 		final DialogBox dialogBox = new DialogBox();
 		dialogBox.setText("Remote Procedure Call");
@@ -109,17 +119,25 @@ public class Stundenplantool implements EntryPoint {
 			private void sendNameToServer() {
 				// First, we validate the input.
 				errorLabel.setText("");
-				String textToServer = nameField.getText();
+				
+				Dozent dozent = new Dozent();
+				dozent.setId(nameField1.getValue());
+				dozent.setVorname(nameField2.getText()); 
+				dozent.setNachname(nameField3.getText());
+				
+				/*String textToServer1 = nameField1.getText();
+				String textToServer2 = nameField2.getText();
+				String textToServer3 = nameField3.getText();
 				if (!FieldVerifier.isValidName(textToServer)) {
 					errorLabel.setText("Please enter at least four characters");
 					return;
-				}
+				}*/
 
 				// Then, we send the input to the server.
 				sendButton.setEnabled(false);
-				textToServerLabel.setText(textToServer);
+				//textToServerLabel.setText(textToServer1);
 				serverResponseLabel.setText("");
-				greetingService.greetServer(textToServer,
+				greetingService.greetServer(dozent,
 						new AsyncCallback<String>() {
 							public void onFailure(Throwable caught) {
 								// Show the RPC error message to the user
@@ -134,8 +152,8 @@ public class Stundenplantool implements EntryPoint {
 
 							public void onSuccess(String result) {
 								dialogBox.setText("Remote Procedure Call");
-								serverResponseLabel
-										.removeStyleName("serverResponseLabelError");
+								//serverResponseLabel
+										//.removeStyleName("serverResponseLabelError");
 								serverResponseLabel.setHTML(result);
 								dialogBox.center();
 								closeButton.setFocus(true);
@@ -147,6 +165,8 @@ public class Stundenplantool implements EntryPoint {
 		// Add a handler to send the name to the server
 		MyHandler handler = new MyHandler();
 		sendButton.addClickHandler(handler);
-		nameField.addKeyUpHandler(handler);
+		nameField1.addKeyUpHandler(handler);
+		nameField2.addKeyUpHandler(handler);
+		nameField3.addKeyUpHandler(handler);
 	}
 }

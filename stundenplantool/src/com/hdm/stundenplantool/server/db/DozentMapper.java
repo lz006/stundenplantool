@@ -1,15 +1,14 @@
 package com.hdm.stundenplantool.server.db;
 
 
-
-
 import java.sql.*;
 
 import com.hdm.stundenplantool.shared.businessobject.Dozent;
 
 /* Mapperklasse um Dozenten-Objekte aus und in die DB abzubilden
-@author: Herr Prof. Thies
-@implement: Lucas Zanella */
+ * @author: Herr Prof. Thies
+ * @implement: Lucas Zanella 
+ * */
 
 public class DozentMapper {
 	
@@ -31,7 +30,7 @@ public class DozentMapper {
 		Connection con = DBConnection.connection();
 		try{
 		Statement stmt = con.createStatement();
-		String sql1 = "INSERT INTO Dozent (`Dozent ID`, `Vorname`, `Nachname`) VALUES ('"+dozent.getDozentID()+"', '"+dozent.getVorname()+"', '"+dozent.getNachname()+"')";
+		String sql1 = "INSERT INTO Dozent (`Dozent ID`, `Vorname`, `Nachname`) VALUES ('"+dozent.getId()+"', '"+dozent.getVorname()+"', '"+dozent.getNachname()+"')";
 		stmt.executeUpdate(sql1);
 		con.close();
 		}

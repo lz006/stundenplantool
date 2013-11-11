@@ -7,24 +7,21 @@ package com.hdm.stundenplantool.shared.businessobject;
 
 public class Dozent extends BusinessObject {
 	
-	public Dozent (int dozentID, String vorname, String nachname) {
-		this.dozentID = dozentID;
+	/*public Dozent (int dozentID, String vorname, String nachname) {
+		super.setId(dozentID);
 		this.vorname = vorname;
 		this.nachname = nachname;
 	}
+	*/
 	
-	private int dozentID;
+	private static final long serialVersionUID = 1L;
+	
 	private String vorname;
 	private String nachname;
 	
 	
 	
-	public int getDozentID() {
-		return dozentID;
-	}
-	public void setDozentID(int dozentID) {
-		this.dozentID = dozentID;
-	}
+	
 	public String getVorname() {
 		return vorname;
 	}
@@ -38,6 +35,9 @@ public class Dozent extends BusinessObject {
 		this.nachname = nachname;
 	}
 	
+	public String toString() {
+	    return super.toString() + " " + this.vorname + " " + this.nachname;
+	  }
 	
 
 }
