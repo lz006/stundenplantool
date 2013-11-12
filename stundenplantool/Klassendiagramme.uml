@@ -295,5 +295,11 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_lDtRQEcJEeO3Q7muhC52ag" name="Serializable"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WNkz0EuFEeO8NseycbT5zw" name="com.hdm.stundenplantool.server">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dDN18EuFEeO8NseycbT5zw">
+        <body>com.hdm.stundenplantool.server</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_foLGAEuFEeO8NseycbT5zw" name="Class1"/>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
