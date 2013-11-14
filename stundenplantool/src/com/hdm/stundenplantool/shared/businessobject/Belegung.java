@@ -7,20 +7,57 @@ package com.hdm.stundenplantool.shared.businessobject;
 
 public class Belegung extends BusinessObject {
 	
-	public Belegung (int BelegungID) {
-		this.BelegungID = BelegungID;
-		
-	}
+	private static final long serialVersionUID = 1L;
 	
-	private int BelegungID;
-		
+	private int lehrveranstaltungID;
+	private int raumID;
+	private int zeitslotID;
+	private int dozentID;
 	
-	public int getBelegungID() {
-		return BelegungID;
+
+	public int getLehrveranstaltungID() {
+		return lehrveranstaltungID;
 	}
-	public void setBelegungID(int BelegungID) {
-		this.BelegungID = BelegungID;
+
+
+	public void setLehrveranstaltungID(int lehrveranstaltungID) {
+		this.lehrveranstaltungID = lehrveranstaltungID;
 	}
+
+
+	public int getRaumID() {
+		return raumID;
+	}
+
+
+	public void setRaumID(int raumID) {
+		this.raumID = raumID;
+	}
+
+
+	public int getZeitslotID() {
+		return zeitslotID;
+	}
+
+
+	public void setZeitslotID(int zeitslotID) {
+		this.zeitslotID = zeitslotID;
+	}
+
+
+	public int getDozentID() {
+		return dozentID;
+	}
+
+
+	public void setDozentID(int dozentID) {
+		this.dozentID = dozentID;
+	}
+
+
+	public String toString() {
+	    return super.toString() + " " + this.lehrveranstaltungID + " " + this.raumID + " " + this.zeitslotID + " " + this.dozentID;
+	  }
 	
 
 }

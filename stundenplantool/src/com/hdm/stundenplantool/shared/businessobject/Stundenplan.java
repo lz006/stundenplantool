@@ -7,27 +7,26 @@ package com.hdm.stundenplantool.shared.businessobject;
 
 public class Stundenplan extends BusinessObject {
 	
-	public Stundenplan (int StundenplanID, String Studienhalbjahr) {
-		this.StundenplanID = StundenplanID;
-		this.Studienhalbjahr = Studienhalbjahr;
-	}
+	private static final long serialVersionUID = 1L;
 	
-	private int StundenplanID;
-	private String Studienhalbjahr;
-		
+	private String studienhalbjahr;
 	
-	
-	public int getStundenplanID() {
-		return StundenplanID;
-	}
-	public void setStundenplanID(int StundenplanID) {
-		this.StundenplanID = StundenplanID;
-	}
-	public String getStudienhalbjahr() {
-		return Studienhalbjahr;
-	}
-	public void setStudienhalbjahr(String Studienhalbjahr) {
-		this.Studienhalbjahr = Studienhalbjahr;
 
+	
+	public String getStudienhalbjahr() {
+		return studienhalbjahr;
 	}
+
+
+
+	public void setStudienhalbjahr(String studienhalbjahr) {
+		this.studienhalbjahr = studienhalbjahr;
+	}
+
+
+
+	public String toString() {
+	    return super.toString() + " " + this.studienhalbjahr;
+	  }
+	
 }

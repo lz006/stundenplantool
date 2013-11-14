@@ -1,4 +1,5 @@
 package com.hdm.stundenplantool.server.db;
+import java.util.Vector;
 
 
 
@@ -12,6 +13,71 @@ import com.hdm.stundenplantool.shared.businessobject.Semesterverband;
 @implement: Timm Roth */
 
 public class SemesterverbandMapper {
+public Vector <Belegung> findAll() {
+   Connection con = DBConnection.connection();
+            		try{
+            		Statement stmt = con.createStatement();
+            		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+belegung.getId();
+            		stmt.executeUpdate(sql1);
+            		con.close();
+            		}
+            		catch (SQLException e1) {
+            			
+            		}
+            	}
+   
+   public Semesterverband insertIntoDB(Semesterverband semesterverband) {
+   Connection con = DBConnection.connection();
+      		try{
+      		Statement stmt = con.createStatement();
+      		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+belegung.getId();
+      		stmt.executeUpdate(sql1);
+      		con.close();
+      		}
+      		catch (SQLException e1) {
+      			
+      		}
+      	}
+   
+   public void deleteFromDB(Semesterverband semesterverband) {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+belegung.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
+   public Semesterverband updateDB(Semesterverband semesterverband) {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+belegung.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
+   public Semesterverband findByKey(int key) {
+   Connection con = DBConnection.connection();
+            		try{
+            		Statement stmt = con.createStatement();
+            		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+key.getId();
+            		stmt.executeUpdate(sql1);
+            		con.close();
+            		}
+            		catch (SQLException e1) {
+            			
+            		}
+            	}
+   
 	
 	private static SemesterverbandMapper semesterverbandMapper = null;
 	
@@ -26,19 +92,6 @@ public class SemesterverbandMapper {
 
 	    return semesterverbandMapper;
 	   }
-	
-	public void insertIntoDB(Semesterverband semesterverband) {
-		Connection con = DBConnection.connection();
-		try{
-		Statement stmt = con.createStatement();
-		String sql1 = "INSERT INTO Semesterverband (`Semesterverband ID`, `Semesterverbandsbezeichnung`, `Studiengang`, `AnzahlStudenten`, `Jahrgang`) VALUES ('"+semesterverband.getSemesterverbandID()+"', '"+semesterverband.getSemesterverbandsbezeichnung()+"', '"+semesterverband.getStudiengang()+"', '"+semesterverband.getAnzahlStudenten()+", '"+semesterverband.getJahrgang()+")";
-		stmt.executeUpdate(sql1);
-		con.close();
-		}
-		catch (SQLException e1) {
-			
-		}
-	}
 	
 
 }

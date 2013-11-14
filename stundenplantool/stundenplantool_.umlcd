@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_V-lBYEw8EeOieqSHuBo-SQ">
+  <modelElement href="stundenplantool.uml#_UP3c0Ew8EeOieqSHuBo-SQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WGoKIEw8EeOieqSHuBo-SQ" name="com">
+    <modelElement href="stundenplantool.uml#_U3NJoEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WGoKIUw8EeOieqSHuBo-SQ" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WHE2EEw8EeOieqSHuBo-SQ" name="java">
+    <modelElement href="stundenplantool.uml#_U38wgEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WHE2EUw8EeOieqSHuBo-SQ" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

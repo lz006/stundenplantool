@@ -1,4 +1,5 @@
 package com.hdm.stundenplantool.server.db;
+import com.hdm.stundenplantool.shared.businessobject.Belegung;
 
 	import java.sql.*;
 
@@ -9,6 +10,72 @@ package com.hdm.stundenplantool.server.db;
 	@implement: Mathias Zimmermann */
 
 	public class ZeitslotMapper {
+
+		public Zeitslot insertIntoDB(Zeitslot zeitslot) {
+   Connection con = DBConnection.connection();
+      		try{
+      		Statement stmt = con.createStatement();
+      		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+zeitslot.getId();
+      		stmt.executeUpdate(sql1);
+      		con.close();
+      		}
+      		catch (SQLException e1) {
+      			
+      		}
+      	}
+   
+   public Zeitslot updateDB(Zeitslot zeitslot) {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+zeitslot.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
+   public void deleteFromDB(Zeitslot zeitslot) {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+zeitslot.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
+   public Zeitslot findByKey(int key) {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+key.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
+   public Vector<Zeitslot> findAll() {
+   Connection con = DBConnection.connection();
+         		try{
+         		Statement stmt = con.createStatement();
+         		String sql1 = "INSERT INTO Belegung (`Belegung ID`) VALUES ('"+.getId();
+         		stmt.executeUpdate(sql1);
+         		con.close();
+         		}
+         		catch (SQLException e1) {
+         			
+         		}
+         	}
+   
 		
 		private static ZeitslotMapper zeitslotMapper = null;
 		
@@ -23,18 +90,5 @@ package com.hdm.stundenplantool.server.db;
 
 		    return zeitslotMapper;
 		   }
-		
-		public void insertIntoDB(Zeitslot zeitslot) {
-			Connection con = DBConnection.connection();
-			try{
-			Statement stmt = con.createStatement();
-			String sql1 = "INSERT INTO Zeitslot (`Zeitslot ID`, `Zeitslotanfangszeit`, `Zeitslotendzeit`) VALUES ('"+zeitslot.getZeitslotID()+"', '"+zeitslot.getZeitslotanfangszeit()+"', '"+zeitslot.getZeitslotendzeit()+"')";
-			stmt.executeUpdate(sql1);
-			con.close();
-			}
-			catch (SQLException e1) {
-				
-			}
-		}
 		
 }

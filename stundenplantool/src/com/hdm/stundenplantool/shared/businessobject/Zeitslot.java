@@ -1,5 +1,7 @@
 package com.hdm.stundenplantool.shared.businessobject;
 
+import java.util.Vector;
+
 /*Ein Objekt dieser Klasse ist eine Repräsentation eines realen Zeitslots
  * @author: Lucas Zanella
  * @implement: Timm Roth
@@ -7,37 +9,54 @@ package com.hdm.stundenplantool.shared.businessobject;
 
 public class Zeitslot extends BusinessObject {
 	
-	public Zeitslot (int ZeitslotID, int Zeitslotanfangszeit, int Zeitslotendzeit) {
-		this.ZeitslotID = ZeitslotID;
-		this.Zeitslotanfangszeit = Zeitslotanfangszeit;
-		this.Zeitslotendzeit = Zeitslotendzeit;
-	}
+	private static final long serialVersionUID = 1L;
 	
-	private int ZeitslotID;
-	private int Zeitslotanfangszeit;
-	private int Zeitslotendzeit;
+	private int zeitslotendzeit;
+	private int zeitslotanfangszeit;
+	private Vector<Integer> belegungsFremdschluesselID = new Vector<Integer>() ;
+
 	
 	
-	
-	public int getZeitslotID() {
-		return ZeitslotID;
+		public Vector<Integer> getbelegungsFremdschluesselID() {
+		return belegungsFremdschluesselID;
 	}
-	public void setZeitslotID(int ZeitslotID) {
-		this.ZeitslotID = ZeitslotID;
+
+	public void setbelegungsFremdschluesselID(
+			Vector<Integer> belegungsFremdschluesselID) {
+		this.belegungsFremdschluesselID = belegungsFremdschluesselID;
 	}
-	public int getZeitslotanfangszeit() {
-		return Zeitslotanfangszeit;
+
+	public int getzeitslotendzeit() {
+		return zeitslotendzeit;
 	}
-	public void setZeitslotanfangszeit(int Zeitslotanfangszeit ) {
-		this.Zeitslotanfangszeit = Zeitslotanfangszeit;
+
+
+
+
+	public void setzeitslotendzeit(int zeitslotendzeit) {
+		this.zeitslotendzeit = zeitslotendzeit;
 	}
-	public int getZeitslotendzeit() {
-		return Zeitslotendzeit;
+
+
+
+
+	public int getzeitslotanfangszeit() {
+		return zeitslotanfangszeit;
 	}
-	public void setZeitslotendzeit(int Zeitslotendzeit) {
-		this.Zeitslotendzeit = Zeitslotendzeit;
+
+
+
+
+	public void setzeitslotanfangszeit(int zeitslotanfangszeit) {
+		this.zeitslotanfangszeit = zeitslotanfangszeit;
 	}
-	
+
+
+
+
+	public String toString() {
+	    return super.toString() + " " + this.zeitslotendzeit + " " + this.zeitslotanfangszeit;
+	  }
 	
 
 }

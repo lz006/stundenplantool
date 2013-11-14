@@ -1,5 +1,7 @@
 package com.hdm.stundenplantool.shared.businessobject;
 
+import java.util.Vector;
+
 /*Ein Objekt dieser Klasse ist eine Repräsentation eines realen Raumes
  * @author: Lucas Zanella
  * @implement: Mathias Zimmermann
@@ -7,36 +9,47 @@ package com.hdm.stundenplantool.shared.businessobject;
 
 public class Raum extends BusinessObject {
 	
-	public Raum (int RaumID, int Raumkapazitaet, String Raumbezeichnung) {
-		this.RaumID = RaumID;
-		this.Raumkapazitaet = Raumkapazitaet;
-		this.Raumbezeichnung = Raumbezeichnung;
-	}
+	private static final long serialVersionUID = 1L;
 	
-	private int RaumID;
-	private int Raumkapazitaet;
-	private String Raumbezeichnung;
+	private int raumkapazitaet;
+	private String raumbezeichnung;
+	private Vector<Integer> belegungsFremdschluesselID = new Vector<Integer>() ;
+
 	
 	
+		public Vector<Integer> getbelegungsFremdschluesselID() {
+		return belegungsFremdschluesselID;
+	}
+
+	public void setbelegungsFremdschluesselID(
+			Vector<Integer> belegungsFremdschluesselID) {
+		this.belegungsFremdschluesselID = belegungsFremdschluesselID;
+	}
+
+	public int getraumkapazitaet() {
+		return raumkapazitaet;
+	}
+
+
+	public void setraumkapazitaet(int raumkapazitaet) {
+		this.raumkapazitaet = raumkapazitaet;
+	}
+
+
+	public String getraumbezeichnung() {
+		return raumbezeichnung;
+	}
+
+
+	public void setraumbezeichnung(String raumbezeichnung) {
+		this.raumbezeichnung = raumbezeichnung;
+	}
+
+
+	public String toString() {
+	    return super.toString() + " " + this.raumkapazitaet + " " + this.raumbezeichnung;
+	  }
 	
-	public int getRaumID() {
-		return RaumID;
-	}
-	public void setRaumID(int RaumID) {
-		this.RaumID = RaumID;
-	}
-	public int getRaumkapazitaet() {
-		return Raumkapazitaet;
-	}
-	public void setRaumkapazitaet(int Raumkapazitaet) {
-		this.Raumkapazitaet = Raumkapazitaet;
-	}
-	public String getRaumbezeichnung() {
-		return Raumbezeichnung;
-	}
-	public void setRaumbezeichnung(String Raumbezeichnung) {
-		this.Raumbezeichnung = Raumbezeichnung;
-	}
 	
 	
 

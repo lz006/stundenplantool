@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WAXxIUw8EeOieqSHuBo-SQ">
+  <modelElement href="stundenplantool.uml#_U3y_gkw8EeOieqSHuBo-SQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WycHTkw8EeOieqSHuBo-SQ" sourceAnchor="159.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WycHQEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ1KuUw8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUoEyTEeOJsZQjUjgN8Q" sourceY="-14" targetX="-385" targetY="10"/>
+    <bendpoints xmi:id="_CUdUoUyTEeOJsZQjUjgN8Q" sourceX="385" sourceY="-14" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WylRM0w8EeOieqSHuBo-SQ" sourceAnchor="255.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WylRNEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ1Kukw8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUokyTEeOJsZQjUjgN8Q" sourceY="-15" targetX="31" targetY="10"/>
+    <bendpoints xmi:id="_CUdUo0yTEeOJsZQjUjgN8Q" sourceX="-31" sourceY="-15" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WyvCMEw8EeOieqSHuBo-SQ" sourceAnchor="228.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WyvCMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ1Ku0w8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUpkyTEeOJsZQjUjgN8Q" sourceY="-13" targetX="-784" targetY="10"/>
+    <bendpoints xmi:id="_CUdUp0yTEeOJsZQjUjgN8Q" sourceX="784" sourceY="-13" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WyvCS0w8EeOieqSHuBo-SQ" sourceAnchor="217.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WyvCTEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ-UoEw8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUqEyTEeOJsZQjUjgN8Q" sourceY="-128" targetX="450" targetY="-97"/>
+    <bendpoints xmi:id="_CUdUqUyTEeOJsZQjUjgN8Q" sourceX="-1021" sourceY="-128" targetX="-571" targetY="-97"/>
+    <bendpoints xmi:id="_CUdUqkyTEeOJsZQjUjgN8Q" sourceX="-1021" sourceY="-21" targetX="-571" targetY="10"/>
+    <bendpoints xmi:id="_CUdUq0yTEeOJsZQjUjgN8Q" sourceX="-450" sourceY="-21" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Wy4zMEw8EeOieqSHuBo-SQ" sourceAnchor="254.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_Wy4zMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ-UoUw8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUrkyTEeOJsZQjUjgN8Q" sourceY="-11" targetX="1469" targetY="10"/>
+    <bendpoints xmi:id="_CUdUr0yTEeOJsZQjUjgN8Q" sourceX="-1469" sourceY="-11" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WzLuIEw8EeOieqSHuBo-SQ" sourceAnchor="145.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WzLuIUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ-Uokw8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUsEyTEeOJsZQjUjgN8Q" sourceY="-10" targetX="1066" targetY="10"/>
+    <bendpoints xmi:id="_CUdUsUyTEeOJsZQjUjgN8Q" sourceX="-1066" sourceY="-10" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WzLuNUw8EeOieqSHuBo-SQ" sourceAnchor="217.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WzU4EEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VJ-Uo0w8EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUskyTEeOJsZQjUjgN8Q" sourceY="-11" targetX="700" targetY="10"/>
+    <bendpoints xmi:id="_CUdUs0yTEeOJsZQjUjgN8Q" sourceX="-700" sourceY="-11" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ltTkEUw8EeOieqSHuBo-SQ" targetItem="_WylRMEw8EeOieqSHuBo-SQ" sourceItem="_ltTkEEw8EeOieqSHuBo-SQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lqww80w9EeOieqSHuBo-SQ" sourceAnchor="221.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_WzB9IEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_lqm_8Ew9EeOieqSHuBo-SQ"/>
+    <bendpoints xmi:id="_CUdUpEyTEeOJsZQjUjgN8Q" sourceY="-14" targetX="-1237" targetY="10"/>
+    <bendpoints xmi:id="_CUdUpUyTEeOJsZQjUjgN8Q" sourceX="1237" sourceY="-14" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_s5GBQEx8EeOJsZQjUjgN8Q" sourceAnchor="254.0,0.0" targetAnchor="77.0,82.0" superClass="_WylRMEw8EeOieqSHuBo-SQ" subClass="_s5GBQUx8EeOJsZQjUjgN8Q">
+    <modelElement href="stundenplantool.uml#_s3AWkEx8EeOJsZQjUjgN8Q"/>
+    <bendpoints xmi:id="_CUdUrEyTEeOJsZQjUjgN8Q" sourceY="-10" targetX="1980" targetY="10"/>
+    <bendpoints xmi:id="_CUdUrUyTEeOJsZQjUjgN8Q" sourceX="-1980" sourceY="-10" targetY="10"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v_kS4UyQEeOJsZQjUjgN8Q" source="_WyvCMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_v_Hm8UyQEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_v_kS4kyQEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_v_Hm80yQEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v_kS40yQEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_v_kS5EyQEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_v_Hm8kyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_v_kS5UyQEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_v_kS5kyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v_kS50yQEeOJsZQjUjgN8Q" aggregationKind="NONE" name="belegungsFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_v-918EyQEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_wDS8UEyQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-918UyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wDcGQEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_v-9180yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v_kS6EyQEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_v_kS6UyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v_kS7EyQEeOJsZQjUjgN8Q" source="_WyvCMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_v_Hm9EyQEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_v_kS7UyQEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_v_Hm9kyQEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_v_kS7kyQEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_v_kS70yQEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_v_Hm9UyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_v_kS8EyQEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_v_kS8UyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v_kS8kyQEeOJsZQjUjgN8Q" aggregationKind="NONE" name="dozentFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_v-919EyQEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_wDl3QEyQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-919UyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wDl3QUyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_v-9190yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v_kS80yQEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_v_kS9EyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_GaLewEyREeOJsZQjUjgN8Q" source="_WylRNEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_GZ4j3UyREeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_GaLewUyREeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_GZ4j30yREeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_GaLewkyREeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_GaLew0yREeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_GZ4j3kyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_GaLexEyREeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_GaLexUyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_GaLexkyREeOJsZQjUjgN8Q" aggregationKind="NONE" name="belegungsFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_GZuy0EyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_GbXxkEyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZ4j0EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GbXxkUyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_GZ4j0kyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_GaLex0yREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_GaLeyEyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_GaLey0yREeOJsZQjUjgN8Q" source="_WylRNEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_GZ4j4EyREeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_GaLezEyREeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_GZ4j4kyREeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_GaLezUyREeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_GaLezkyREeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_GZ4j4UyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_GaLez0yREeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_GaLe0EyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_GaLe0UyREeOJsZQjUjgN8Q" aggregationKind="NONE" name="lehrveranstaltungFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_GZ4j00yREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_Gbg7gEyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZ4j1EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GbqsgEyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_GZ4j1kyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_GaLe0kyREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_GaLe00yREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eGTV0UyREeOJsZQjUjgN8Q" source="_WzB9IEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_eF_z2EyREeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_eGTV0kyREeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_eF_z2kyREeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eGTV00yREeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_eGTV1EyREeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_eF_z2UyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_eGTV1UyREeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_eGTV1kyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eGTV10yREeOJsZQjUjgN8Q" aggregationKind="NONE" name="belegungsFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_eF_z0EyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_eGcfwEyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_eF_z0UyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eGcfwUyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_eF_z00yREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_eGTV2EyREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_eGTV2UyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NOCiwkySEeOJsZQjUjgN8Q" source="_WyvCTEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_NM2P_UySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_NOCiw0ySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_NM2P_0ySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NOCixEySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_NOCixUySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_NM2P_kySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NOCixkySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_NOCix0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NOCiyEySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="belegungsFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_NM2P9EySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_NOLssEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_NM2P9UySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NOLssUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_NM2P90ySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_NOCiyUySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_NOCiykySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RHMlokySEeOJsZQjUjgN8Q" source="_WzU4EEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_RGTN0kySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_RHMlo0ySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_RGTN1EySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RHMlpEySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_RHMlpUySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_RGTN00ySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_RHMlpkySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_RHMlp0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RHMlqEySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="belegungsFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_RGTNyUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_RHWWoEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_RGTNykySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RHWWoUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_RGTNzEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_RHMlqUySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_RHMlqkySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jjlocEySEeOJsZQjUjgN8Q" source="_Wy4zMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_ji_LjEySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_jjlocUySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_ji_LjkySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jjlockySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_jjloc0ySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_ji_LjUySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_jjlodEySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_jjlodUySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jjlodkySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="semesterverbandFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_ji1ajUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jjuyYEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji1ajkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jjuyYUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_ji1akEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjlod0ySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_jjloeEySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jjloe0ySEeOJsZQjUjgN8Q" source="_Wy4zMUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_ji_Lj0ySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_jjlofEySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_ji_LkUySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jjlofUySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_jjlofkySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_ji_LkEySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_jjlof0ySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_jjlogEySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jjlogUySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="lehrveranstaltungFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_ji1akUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jj4jYEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji_LgEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jkBtUEySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_ji_LgkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjlogkySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_jjlog0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_okbFEkySEeOJsZQjUjgN8Q" source="_s5GBQUx8EeOJsZQjUjgN8Q">
+    <modelElement href="stundenplantool.uml#_oiyGZUySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_okbFE0ySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_oiyGZ0ySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_okbFFEySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_okbFFUySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_oiyGZkySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_okbFFkySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_okbFF0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_okbFGEySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="semesterverbandFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_oiyGVUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_olA68EySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oiyGVkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_olA68UySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oiyGWEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_okbFGUySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_okbFGkySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_okuAAUySEeOJsZQjUjgN8Q" source="_s5GBQUx8EeOJsZQjUjgN8Q">
+    <modelElement href="stundenplantool.uml#_oiyGaEySEeOJsZQjUjgN8Q"/>
+    <stereotypes xmi:id="_okuAAkySEeOJsZQjUjgN8Q" name="Reference">
+      <modelElement href="stundenplantool.uml#_oiyGakySEeOJsZQjUjgN8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_okuAA0ySEeOJsZQjUjgN8Q" text=""/>
+    <sourceRole xmi:id="_okuABEySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="">
+      <modelElement href="stundenplantool.uml#_oiyGaUySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_okuABUySEeOJsZQjUjgN8Q" label="+"/>
+      <cardinality xmi:id="_okuABkySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_okuAB0ySEeOJsZQjUjgN8Q" aggregationKind="NONE" name="lehrveranstaltungFremdschluesselID" navigable="true">
+      <modelElement href="stundenplantool.uml#_oiyGWUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_olKr8EySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oiyGWkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_olUc8EySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oiyGXEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_okuACEySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_okuACUySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ltTkEEw8EeOieqSHuBo-SQ" sourceConnectionVisual="_ltTkEUw8EeOieqSHuBo-SQ" text="@author: Herr Prof. Thies&#xD;&#xA;@implement: Lucas Zanella" item="_WylRMEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_ltJzFEw8EeOieqSHuBo-SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WycHQEw8EeOieqSHuBo-SQ" name="Belegung" generalizations="_WycHTkw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_U_2IQEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WycHQUw8EeOieqSHuBo-SQ" position="-911.0,-61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WycHQkw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WycHQ0w8EeOieqSHuBo-SQ" name="lehrveranstaltungID">
+      <modelElement href="stundenplantool.uml#_VK3shUw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_lN9DsEw-EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_lNWmwEw-EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WycHREw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WycHRUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WycHRkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lOP-qEw-EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_lNgXwEw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOP-qUw-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_lOP-qkw-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lOP-q0w-EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lOP-rEw-EeOieqSHuBo-SQ" name="raumID">
+      <modelElement href="stundenplantool.uml#_lNgXwkw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_lOP-rUw-EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_lNgXw0w-EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lOP-rkw-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_lOP-r0w-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lOP-sEw-EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lOP-sUw-EeOieqSHuBo-SQ" name="zeitslotID">
+      <modelElement href="stundenplantool.uml#_lNgXxEw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_lOP-skw-EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_lNgXxUw-EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lOP-s0w-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_lOP-tEw-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lOP-tUw-EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lOP-tkw-EeOieqSHuBo-SQ" name="dozentID">
+      <modelElement href="stundenplantool.uml#_lNgXxkw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_lOP-t0w-EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_lNgXx0w-EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lOP-uEw-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_lOP-uUw-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lOP-ukw-EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WycHR0w8EeOieqSHuBo-SQ" name="getLehrveranstaltungID">
+      <modelElement href="stundenplantool.uml#_U_2IQUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WycHSUw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_WycHSkw8EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_U_2IRUw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lNgX2Uw-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lN9DsUw-EeOieqSHuBo-SQ" name="getRaumID">
+      <modelElement href="stundenplantool.uml#_lNNc0Ew-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lN9Dskw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_lN9Ds0w-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_lNWmw0w-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lN9DtEw-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lN9DtUw-EeOieqSHuBo-SQ" name="getZeitslotID">
+      <modelElement href="stundenplantool.uml#_lNNc0Uw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lN9Dtkw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_lN9Dt0w-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_lNWmxkw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lN9DuEw-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lN9DuUw-EeOieqSHuBo-SQ" name="getDozentID">
+      <modelElement href="stundenplantool.uml#_lNNc0kw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lN9Dukw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_lN9Du0w-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_lNWmyUw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lN9DvEw-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lOGNoEw-EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_lNNc00w-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOGNoUw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_lOGNokw-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_lNWmzEw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lOGNo0w-EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lOGNpEw-EeOieqSHuBo-SQ" name="setLehrveranstaltungID">
+      <modelElement href="stundenplantool.uml#_lNWmwUw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOGNpUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_lOGNpkw-EeOieqSHuBo-SQ" name="lehrveranstaltungID">
+        <modelElement href="stundenplantool.uml#_lNWmwkw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lOGNp0w-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lOGNqEw-EeOieqSHuBo-SQ" name="setRaumID">
+      <modelElement href="stundenplantool.uml#_lNWmxEw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOGNqUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_lOGNqkw-EeOieqSHuBo-SQ" name="raumID">
+        <modelElement href="stundenplantool.uml#_lNWmxUw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lOGNq0w-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lOP-oEw-EeOieqSHuBo-SQ" name="setZeitslotID">
+      <modelElement href="stundenplantool.uml#_lNWmx0w-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOP-oUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_lOP-okw-EeOieqSHuBo-SQ" name="zeitslotID">
+        <modelElement href="stundenplantool.uml#_lNWmyEw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lOP-o0w-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lOP-pEw-EeOieqSHuBo-SQ" name="setDozentID">
+      <modelElement href="stundenplantool.uml#_lNWmykw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_lOP-pUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_lOP-pkw-EeOieqSHuBo-SQ" name="dozentID">
+        <modelElement href="stundenplantool.uml#_lNWmy0w-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_lOP-p0w-EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WylRNEw8EeOieqSHuBo-SQ" name="Dozent" associationsOut="_GaLewEyREeOJsZQjUjgN8Q _GaLey0yREeOJsZQjUjgN8Q" generalizations="_WylRM0w8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_U_2IR0w8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WylRNUw8EeOieqSHuBo-SQ" position="-591.0,-60.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WylRNkw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WylRN0w8EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_VK3shkw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WylROEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WylROUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jFEWgEw8EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WylRO0w8EeOieqSHuBo-SQ" name="vorname">
+      <modelElement href="stundenplantool.uml#_VK3sh0w8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_NZ1YgEyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_NZrngkyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WylRPEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WylRPUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WylRPkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WylRP0w8EeOieqSHuBo-SQ" name="nachname">
+      <modelElement href="stundenplantool.uml#_VK3siEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_NZ1YgUyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_NZrng0yREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WylRQEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WylRQUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WylRQkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GZ4j7EyREeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="belegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_GZuy0EyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_GZ4j7UyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZ4j0EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GZ4j7kyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_GZ4j0kyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_GZ4j70yREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_GZ4j8EyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_GZ4j8UyREeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GZ4j8kyREeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="lehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_GZ4j00yREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_GZ4j80yREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZ4j1EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GZ4j9EyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_GZ4j1kyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_GZ4j9UyREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_GZ4j9kyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_GZ4j90yREeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5LtAaEySEeOJsZQjUjgN8Q" name="personalnummer">
+      <modelElement href="stundenplantool.uml#_5LjPZEySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_5LtAaUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_5LjPZUySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_5LtAakySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_5LtAa0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_5LtAbEySEeOJsZQjUjgN8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WylRQ0w8EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_U__5QEw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WylRRUw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_WylRRkw8EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_U__5Rkw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_jBMjIUw8EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3PJ_Xkw-EeOieqSHuBo-SQ" name="getbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_3PAOUUw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_GbOAkUyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZlB0EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_3PJ_X0w-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_3PJ_YEw-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_3PAOV0w-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_GbOAkEyREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3PTJQEw-EeOieqSHuBo-SQ" name="setbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_3PAOWEw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_3PTJQUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_3PTJQkw-EeOieqSHuBo-SQ" name="belegungsFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_3PAOWUw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_GbOAkkyREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GZ4j40yREeOJsZQjUjgN8Q" name="getlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_GZlB0kyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_GZ4j5EyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_GZlB1EyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_GZ4j5UyREeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_GZ4j5kyREeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_GZlB00yREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_GZ4j50yREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_GZ4j6EyREeOJsZQjUjgN8Q" name="setlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_GZlB1UyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_GZ4j6UyREeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_GZ4j6kyREeOJsZQjUjgN8Q" name="lehrveranstaltungFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_GZlB1kyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_GZ4j60yREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NZ1YgkyREeOJsZQjUjgN8Q" name="getvorname">
+      <modelElement href="stundenplantool.uml#_NZrngEyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NZ1Yg0yREeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_NZ1YhEyREeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_NZrnhEyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NZ1YhUyREeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NZ1YhkyREeOJsZQjUjgN8Q" name="getnachname">
+      <modelElement href="stundenplantool.uml#_NZrngUyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NZ1Yh0yREeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_NZ1YiEyREeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_NZrnh0yREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NZ1YiUyREeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NZ1YikyREeOJsZQjUjgN8Q" name="setvorname">
+      <modelElement href="stundenplantool.uml#_NZrnhUyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NZ1Yi0yREeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_NZ1YjEyREeOJsZQjUjgN8Q" name="vorname">
+        <modelElement href="stundenplantool.uml#_NZrnhkyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NZ1YjUyREeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NZ-icEyREeOJsZQjUjgN8Q" name="setnachname">
+      <modelElement href="stundenplantool.uml#_NZrniEyREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NZ-icUyREeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_NZ-ickyREeOJsZQjUjgN8Q" name="nachname">
+        <modelElement href="stundenplantool.uml#_NZrniUyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NZ-ic0yREeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5LtAYEySEeOJsZQjUjgN8Q" name="getpersonalnummer">
+      <modelElement href="stundenplantool.uml#_5LjPYEySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_5LtAYUySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_5LtAYkySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_5LjPYUySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_5LtAY0ySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5LtAZEySEeOJsZQjUjgN8Q" name="setpersonalnummer">
+      <modelElement href="stundenplantool.uml#_5LjPYkySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_5LtAZUySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_5LtAZkySEeOJsZQjUjgN8Q" name="personalnummer">
+        <modelElement href="stundenplantool.uml#_5LjPY0ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_5LtAZ0ySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WylRMEw8EeOieqSHuBo-SQ" comments="_ltTkEEw8EeOieqSHuBo-SQ" targetConnectionVisual="_ltTkEUw8EeOieqSHuBo-SQ" name="BusinessObject" abstractClass="true" subclassedBy="_WycHTkw8EeOieqSHuBo-SQ _WylRM0w8EeOieqSHuBo-SQ _WyvCMEw8EeOieqSHuBo-SQ _WyvCS0w8EeOieqSHuBo-SQ _Wy4zMEw8EeOieqSHuBo-SQ _WzLuIEw8EeOieqSHuBo-SQ _WzLuNUw8EeOieqSHuBo-SQ _lqww80w9EeOieqSHuBo-SQ _s5GBQEx8EeOJsZQjUjgN8Q">
+    <modelElement href="stundenplantool.uml#_U_2IRkw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WylRMUw8EeOieqSHuBo-SQ" position="-444.0,-167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WylRMkw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_ltJzGUw8EeOieqSHuBo-SQ" name="id">
+      <modelElement href="stundenplantool.uml#_ltJzEUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_ltJzGkw8EeOieqSHuBo-SQ" label="+"/>
+      <cardinality xmi:id="_ltJzG0w8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ltJzHEw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ltJzFUw8EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_ltApIEw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_ltJzFkw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_ltJzF0w8EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_ltApIUw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_ltJzGEw8EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WzB9IEw8EeOieqSHuBo-SQ" name="Semesterverband" associationsOut="_eGTV0UyREeOJsZQjUjgN8Q" generalizations="_lqww80w9EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VAlvIUw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WzB9IUw8EeOieqSHuBo-SQ" position="-1825.0,-61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WzB9Ikw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WzB9I0w8EeOieqSHuBo-SQ" name="semester">
+      <modelElement href="stundenplantool.uml#_VLBdgEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_oEJ7gEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oDaUo0yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WzB9JEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzB9JUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzB9Jkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzB9J0w8EeOieqSHuBo-SQ" name="semesterverbandbezeichnung">
+      <modelElement href="stundenplantool.uml#_VLBdgUw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_oEvxYEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oDaUpUyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WzB9KEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzB9KUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzB9Kkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzB9K0w8EeOieqSHuBo-SQ" name="studiengang">
+      <modelElement href="stundenplantool.uml#_VLBdgkw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_oD2ZgEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oDaUokyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WzB9LEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzB9LUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzB9Lkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzB9L0w8EeOieqSHuBo-SQ" name="jahrgang">
+      <modelElement href="stundenplantool.uml#_VLBdg0w8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_oEc2cEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oDaUpEyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WzB9MEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzB9MUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzB9Mkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzB9M0w8EeOieqSHuBo-SQ" name="anzahlStudenten">
+      <modelElement href="stundenplantool.uml#_VLBdhEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_oFCsUEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oDaUpkyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WzB9NEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzB9NUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzB9Nkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gnGp3Ew9EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_gkbJRUw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_gnGp3Uw9EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_gnGp3kw9EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_gnGp30w9EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eGJk0EyREeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="belegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_eF_z0EyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_eGJk0UyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_eF_z0UyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eGJk0kyREeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_eF_z00yREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_eGJk00yREeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_eGJk1EyREeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_eGJk1UyREeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gnGp2Ew9EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_gkRYRkw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_gnGp2Uw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_gnGp2kw9EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_gkbJREw9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_gnGp20w9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oHbR8EyQEeOJsZQjUjgN8Q" name="getstudiengang">
+      <modelElement href="stundenplantool.uml#_oDQjrEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oHbR8UyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oHbR8kyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oDaUqUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oHbR80yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oHlC8EyQEeOJsZQjUjgN8Q" name="getsemester">
+      <modelElement href="stundenplantool.uml#_oDQjrUyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oHlC8UyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oHlC8kyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oDaUrEyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oHlC80yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oHuz8EyQEeOJsZQjUjgN8Q" name="getjahrgang">
+      <modelElement href="stundenplantool.uml#_oDQjrkyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oHuz8UyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oHuz8kyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oDaUr0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oHuz80yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oH394EyQEeOJsZQjUjgN8Q" name="getsemesterverbandbezeichnung">
+      <modelElement href="stundenplantool.uml#_oDaUoEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oH394UyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oH394kyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oDaUskyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oH3940yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oILf4EyQEeOJsZQjUjgN8Q" name="getanzahlStudenten">
+      <modelElement href="stundenplantool.uml#_oDaUoUyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oILf4UyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oILf4kyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oDaUtUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oILf40yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oIUp0EyQEeOJsZQjUjgN8Q" name="setstudiengang">
+      <modelElement href="stundenplantool.uml#_oDaUqkyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oIUp0UyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oIUp0kyQEeOJsZQjUjgN8Q" name="studiengang">
+        <modelElement href="stundenplantool.uml#_oDaUq0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oIUp00yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oIea0EyQEeOJsZQjUjgN8Q" name="setsemester">
+      <modelElement href="stundenplantool.uml#_oDaUrUyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oIea0UyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oIea0kyQEeOJsZQjUjgN8Q" name="semester">
+        <modelElement href="stundenplantool.uml#_oDaUrkyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oIea00yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oIxVwEyQEeOJsZQjUjgN8Q" name="setjahrgang">
+      <modelElement href="stundenplantool.uml#_oDaUsEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oIxVwUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oIxVwkyQEeOJsZQjUjgN8Q" name="jahrgang">
+        <modelElement href="stundenplantool.uml#_oDaUsUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oIxVw0yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oI7GwEyQEeOJsZQjUjgN8Q" name="setsemesterverbandbezeichnung">
+      <modelElement href="stundenplantool.uml#_oDaUs0yQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oI7GwUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oI7GwkyQEeOJsZQjUjgN8Q" name="semesterverbandbezeichnung">
+        <modelElement href="stundenplantool.uml#_oDaUtEyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oI7Gw0yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oJOBsEyQEeOJsZQjUjgN8Q" name="setanzahlStudenten">
+      <modelElement href="stundenplantool.uml#_oDaUtkyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_oJOBsUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oJOBskyQEeOJsZQjUjgN8Q" name="anzahlStudenten">
+        <modelElement href="stundenplantool.uml#_oDaUt0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oJOBs0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eF_z20yREeOJsZQjUjgN8Q" name="getbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_eF2p4EyREeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_eF_z3EyREeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_eF2p4kyREeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_eF_z3UyREeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_eF_z3kyREeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_eF2p4UyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_eF_z30yREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eF_z4EyREeOJsZQjUjgN8Q" name="setbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_eF2p40yREeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_eF_z4UyREeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_eF_z4kyREeOJsZQjUjgN8Q" name="belegungsFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_eF2p5EyREeOJsZQjUjgN8Q"/>
+        <type xmi:id="_eF_z40yREeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WyvCMUw8EeOieqSHuBo-SQ" name="Lehrveranstaltung" associationsOut="_v_kS4UyQEeOJsZQjUjgN8Q _v_kS7EyQEeOJsZQjUjgN8Q" generalizations="_WyvCMEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VAJDMEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WyvCMkw8EeOieqSHuBo-SQ" position="-1379.0,-62.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WyvCM0w8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WyvCNEw8EeOieqSHuBo-SQ" name="semesterverbandID">
+      <modelElement href="stundenplantool.uml#_VK3siUw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4l5PgEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4lmUmEyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WyvCNUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WyvCNkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WyvCN0w8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WyvCOEw8EeOieqSHuBo-SQ" name="lehrveranstaltungsumfang">
+      <modelElement href="stundenplantool.uml#_VK3sikw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4lven0yQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4lmUlUyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WyvCOUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WyvCOkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WyvCO0w8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WyvCPEw8EeOieqSHuBo-SQ" name="lehrveranstaltungsbezeichnung">
+      <modelElement href="stundenplantool.uml#_VK3si0w8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4lveoEyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4lmUlkyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_WyvCPUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WyvCPkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WyvCP0w8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ue0z9kw-EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_UdfXMEw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_Ue0z90w-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_Ue0z-Ew-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Ue0z-Uw-EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ue0z-kw-EeOieqSHuBo-SQ" name="dozentID">
+      <modelElement href="stundenplantool.uml#_UdfXMkw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4lveoUyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4lmUl0yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ue0z_Ew-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_Ue0z_Uw-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Ue0z_kw-EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ue0z_0w-EeOieqSHuBo-SQ" name="semester">
+      <modelElement href="stundenplantool.uml#_UdfXNEw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4l5PgUyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4lmUmUyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ue00AUw-EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_Ue00Akw-EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Ue00A0w-EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v_ah4EyQEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="belegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_v-918EyQEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_v_ah4UyQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-918UyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v_ah4kyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_v-9180yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v_ah40yQEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_v_ah5EyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_v_ah5UyQEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v_ah5kyQEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="dozentFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_v-919EyQEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_v_ah50yQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-919UyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v_ah6EyQEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_v-9190yQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v_ah6UyQEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_v_ah6kyQEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_v_ah60yQEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ueh5DEw-EeOieqSHuBo-SQ" name="getdozentFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_UdVmNEw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_wCPzckyQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-0sAkyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ueh5DUw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_wCPzcEyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_v-0sA0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_wCPzcUyQEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UerqBEw-EeOieqSHuBo-SQ" name="getbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_UdVmOEw-EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_wC_aUkyQEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_v-0sAEyQEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_UerqBUw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_wC_aUEyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_v-0sAUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_wC_aUUyQEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UerqCEw-EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_UdVmOUw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_UerqCUw-EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_UerqCkw-EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_UdVmRkw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_UerqC0w-EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UerqDEw-EeOieqSHuBo-SQ" name="setdozentfremdschluesselID">
+      <modelElement href="stundenplantool.uml#_UdVmQEw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_UerqDUw-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_wDJLUEyQEeOJsZQjUjgN8Q" name="dozentFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_UdfXQEw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_wDJLUUyQEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ue0z8kw-EeOieqSHuBo-SQ" name="setbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_UdVmREw-EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_Ue0z80w-EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_wAT5wEyQEeOJsZQjUjgN8Q" name="belegungsFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_UdfXPEw-EeOieqSHuBo-SQ"/>
+        <type xmi:id="_wAT5wUyQEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4l5PgkyQEeOJsZQjUjgN8Q" name="getlehrveranstaltungsumfang">
+      <modelElement href="stundenplantool.uml#_4lmUkEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4l5Pg0yQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_4l5PhEyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_4lmUmkyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4l5PhUyQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4l5PhkyQEeOJsZQjUjgN8Q" name="getlehrveranstaltungsbezeichnung">
+      <modelElement href="stundenplantool.uml#_4lmUkUyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4l5Ph0yQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_4l5PiEyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_4lmUnUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4l5PiUyQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4mDAgEyQEeOJsZQjUjgN8Q" name="getdozentID">
+      <modelElement href="stundenplantool.uml#_4lmUkkyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mDAgUyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_4mDAgkyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_4lvegEyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mDAg0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4mDAhEyQEeOJsZQjUjgN8Q" name="getsemesterverbandID">
+      <modelElement href="stundenplantool.uml#_4lmUk0yQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mDAhUyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_4mDAhkyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_4lveg0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mDAh0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4mDAiEyQEeOJsZQjUjgN8Q" name="getsemester">
+      <modelElement href="stundenplantool.uml#_4lmUlEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mDAiUyQEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_4mDAikyQEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_4lvehkyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mDAi0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4mMKcEyQEeOJsZQjUjgN8Q" name="setlehrveranstaltungsumfang">
+      <modelElement href="stundenplantool.uml#_4lmUm0yQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mMKcUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_4mMKckyQEeOJsZQjUjgN8Q" name="lehrveranstaltungsumfang">
+        <modelElement href="stundenplantool.uml#_4lmUnEyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mMKc0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4mMKdEyQEeOJsZQjUjgN8Q" name="setlehrveranstaltungsbezeichnung">
+      <modelElement href="stundenplantool.uml#_4lmUnkyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mMKdUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_4mMKdkyQEeOJsZQjUjgN8Q" name="lehrveranstaltungsbezeichnung">
+        <modelElement href="stundenplantool.uml#_4lmUn0yQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mMKd0yQEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4mMKeEyQEeOJsZQjUjgN8Q" name="setdozentID">
+      <modelElement href="stundenplantool.uml#_4lvegUyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mMKeUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_4mMKekyQEeOJsZQjUjgN8Q" name="dozentID">
+        <modelElement href="stundenplantool.uml#_4lvegkyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mMKe0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4mV7cEyQEeOJsZQjUjgN8Q" name="setsemesterverbandID">
+      <modelElement href="stundenplantool.uml#_4lvehEyQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mV7cUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_4mV7ckyQEeOJsZQjUjgN8Q" name="semesterverbandID">
+        <modelElement href="stundenplantool.uml#_4lvehUyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mV7c0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4mV7dEyQEeOJsZQjUjgN8Q" name="setsemester">
+      <modelElement href="stundenplantool.uml#_4lveh0yQEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_4mV7dUyQEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_4mV7dkyQEeOJsZQjUjgN8Q" name="semester">
+        <modelElement href="stundenplantool.uml#_4lveiEyQEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_4mV7d0yQEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WyvCTEw8EeOieqSHuBo-SQ" name="Raum" associationsOut="_NOCiwkySEeOJsZQjUjgN8Q" generalizations="_WyvCS0w8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VAS0MEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WyvCTUw8EeOieqSHuBo-SQ" position="-134.0,-54.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WyvCTkw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WyvCU0w8EeOieqSHuBo-SQ" name="raumkapazitaet">
+      <modelElement href="stundenplantool.uml#_VK3sjUw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4igTAEw9EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4guKU0w9EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WyvCVEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WyvCVUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WyvCVkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WyvCV0w8EeOieqSHuBo-SQ" name="raumbezeichnung">
+      <modelElement href="stundenplantool.uml#_VK3sjkw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_4iqEAEw9EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_4guKVEw9EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WyvCWEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WyvCWUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WyvCWkw8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4hniMEw9EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_4g3URkw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_4hniMUw9EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_4hniMkw9EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_4hniM0w9EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NN4xy0ySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="belegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_NM2P9EySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_NN4xzEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_NM2P9UySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NN4xzUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_NM2P90ySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_NN4xzkySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_NN4xz0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_NN4x0EySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WyvCW0w8EeOieqSHuBo-SQ" name="setraumkapazitaet">
+      <modelElement href="stundenplantool.uml#_VAS0MUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WyvCXUw8EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_NNJK4EySEeOJsZQjUjgN8Q" name="raumkapazitaet">
+        <modelElement href="stundenplantool.uml#_NM2P8UySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NNJK4UySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4hdxMEw9EeOieqSHuBo-SQ" name="getraumkapazitaet">
+      <modelElement href="stundenplantool.uml#_4guKUEw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_4hdxMUw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_NNcF0EySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_NM2P8EySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NNcF0UySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4hdxNEw9EeOieqSHuBo-SQ" name="getraumbezeichnung">
+      <modelElement href="stundenplantool.uml#_4guKUUw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_4hdxNUw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_NNl20EySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_NM2P8kySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NNl20UySEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4hdxOEw9EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_4guKUkw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_4hdxOUw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_4hdxOkw9EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_4g3URUw9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_4hdxO0w9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4hdxPEw9EeOieqSHuBo-SQ" name="setraumbezeichnung">
+      <modelElement href="stundenplantool.uml#_4g3UQ0w9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_4hdxPUw9EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_NN4xwEySEeOJsZQjUjgN8Q" name="raumbezeichnung">
+        <modelElement href="stundenplantool.uml#_NM2P80ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NN4xwUySEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NN4xwkySEeOJsZQjUjgN8Q" name="getbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_NMse8EySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_NN4xw0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_NMse8kySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_NN4xxEySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_NN4xxUySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_NMse8UySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NN4xxkySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NN4xx0ySEeOJsZQjUjgN8Q" name="setbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_NMse80ySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_NN4xyEySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_NN4xyUySEeOJsZQjUjgN8Q" name="belegungsFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_NMse9EySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_NN4xykySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_s5GBQUx8EeOJsZQjUjgN8Q" name="Studiengang" associationsOut="_okbFEkySEeOJsZQjUjgN8Q _okuAAUySEeOJsZQjUjgN8Q" generalizations="_s5GBQEx8EeOJsZQjUjgN8Q">
+    <modelElement href="stundenplantool.uml#_s23MoEx8EeOJsZQjUjgN8Q"/>
+    <visualProperties xmi:id="_s5GBQkx8EeOJsZQjUjgN8Q" position="1359.0,-65.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_s5GBQ0x8EeOJsZQjUjgN8Q" label="+"/>
+    <attributes xmi:id="_s5GBREx8EeOJsZQjUjgN8Q" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_s3AWkUx8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBRUx8EeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_s5GBRkx8EeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_s5GBR0x8EeOJsZQjUjgN8Q" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s5GBSEx8EeOJsZQjUjgN8Q" name="semsterverbandID">
+      <modelElement href="stundenplantool.uml#_s3AWk0x8EeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_s5GBSUx8EeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_s3AWlEx8EeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_s5GBSkx8EeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_s5GBS0x8EeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_s5GBTEx8EeOJsZQjUjgN8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s5GBTUx8EeOJsZQjUjgN8Q" name="studiengangID">
+      <modelElement href="stundenplantool.uml#_s3AWlUx8EeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_s5GBTkx8EeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_s3AWlkx8EeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_s5GBT0x8EeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_s5GBUEx8EeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_s5GBUUx8EeOJsZQjUjgN8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_okRUEEySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="semesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oiyGVUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_okRUEUySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oiyGVkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_okRUEkySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oiyGWEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_okRUE0ySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_okRUFEySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_okRUFUySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_okRUFkySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="lehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oiyGWUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_okRUF0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oiyGWkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_okRUGEySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_oiyGXEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_okRUGUySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_okRUGkySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_okRUG0ySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_s5GBUkx8EeOJsZQjUjgN8Q" name="getsemsterverbandID">
+      <modelElement href="stundenplantool.uml#_s23MoUx8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBU0x8EeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oi73UEySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oiyGUUySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oi73UUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_s5GBVkx8EeOJsZQjUjgN8Q" name="setsemsterverbandID">
+      <modelElement href="stundenplantool.uml#_s23Mo0x8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBV0x8EeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_ojX8MEySEeOJsZQjUjgN8Q" name="semsterverbandID">
+        <modelElement href="stundenplantool.uml#_oiyGUkySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_ojX8MUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_s5GBWkx8EeOJsZQjUjgN8Q" name="getstudiengangID">
+      <modelElement href="stundenplantool.uml#_s23MpUx8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBW0x8EeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_ojreMEySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oiyGU0ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_ojreMUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_s5GBXkx8EeOJsZQjUjgN8Q" name="setstudiengangID">
+      <modelElement href="stundenplantool.uml#_s23Mp0x8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBX0x8EeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_oj-ZIEySEeOJsZQjUjgN8Q" name="studiengangID">
+        <modelElement href="stundenplantool.uml#_oiyGVEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oj-ZIUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_s5GBYkx8EeOJsZQjUjgN8Q" name="toString">
+      <modelElement href="stundenplantool.uml#_s23MqUx8EeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_s5GBY0x8EeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_s5GBZEx8EeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_s23Mqkx8EeOJsZQjUjgN8Q"/>
+        <type xmi:id="_s5GBZUx8EeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oj-ZIkySEeOJsZQjUjgN8Q" name="getsemesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oioVUEySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_oj-ZI0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oioVUkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oj-ZJEySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_oj-ZJUySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oioVUUySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_oj-ZJkySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_okIKIEySEeOJsZQjUjgN8Q" name="setsemesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oioVU0ySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_okIKIUySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_okIKIkySEeOJsZQjUjgN8Q" name="semesterverbandFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_oioVVEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_okIKI0ySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_okIKJEySEeOJsZQjUjgN8Q" name="getlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oioVVkySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_okIKJUySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_oioVWEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_okIKJkySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_okIKJ0ySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_oioVV0ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_okIKKEySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_okIKKUySEeOJsZQjUjgN8Q" name="setlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_oioVWUySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_okIKKkySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_okIKK0ySEeOJsZQjUjgN8Q" name="lehrveranstaltungFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_oioVWkySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_okIKLEySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wy4zMUw8EeOieqSHuBo-SQ" name="Semester" associationsOut="_jjlocEySEeOJsZQjUjgN8Q _jjloe0ySEeOJsZQjUjgN8Q" generalizations="_Wy4zMEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VAb-IEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_Wy4zMkw8EeOieqSHuBo-SQ" position="848.0,-64.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Wy4zM0w8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_Wy4zNEw8EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_VK3sj0w8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_Wy4zNUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_Wy4zNkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uSjtMEw9EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Wy4zOEw8EeOieqSHuBo-SQ" name="semesterbezeichnung">
+      <modelElement href="stundenplantool.uml#_VK3skEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_uSs3IEw9EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_uRqVU0w9EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Wy4zOUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_Wy4zOkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Wy4zO0w8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jjb3cEySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="semesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1ajUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jjb3cUySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji1ajkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jjb3ckySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_ji1akEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjb3c0ySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_jjb3dEySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_jjb3dUySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jjb3dkySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="lehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1akUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jjb3d0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji_LgEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jjb3eEySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_ji_LgkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjb3eUySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_jjb3ekySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_jjb3e0ySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Wy4zPEw8EeOieqSHuBo-SQ" name="setsemesterbezeichnung">
+      <modelElement href="stundenplantool.uml#_VAb-IUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_Wy4zPkw8EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_uR0GUEw9EeOieqSHuBo-SQ" name="semesterbezeichnung">
+        <modelElement href="stundenplantool.uml#_VLxEYkw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_uR0GUUw9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uSs3IUw9EeOieqSHuBo-SQ" name="getsemesterbezeichnung">
+      <modelElement href="stundenplantool.uml#_uRqVUUw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_uSs3Ikw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_jjSGcEySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_ji1ajEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_jjSGcUySEeOJsZQjUjgN8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uSs3JUw9EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_uRqVUkw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_uSs3Jkw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_uSs3J0w9EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_uRqVVUw9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_uSs3KEw9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jjSGckySEeOJsZQjUjgN8Q" name="getsemesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1agEySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jjSGc0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji1agkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjSGdEySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_jjSGdUySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_ji1agUySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_jjSGdkySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jjSGd0ySEeOJsZQjUjgN8Q" name="setsemesterverbandFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1ag0ySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_jjSGeEySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_jjSGeUySEeOJsZQjUjgN8Q" name="semesterverbandFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_ji1ahEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_jjSGekySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjSGe0ySEeOJsZQjUjgN8Q" name="getlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1ahkySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_jjSGfEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_ji1aiEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_jjSGfUySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_jjSGfkySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_ji1ah0ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_jjSGf0ySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jjSGgEySEeOJsZQjUjgN8Q" name="setlehrveranstaltungFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_ji1aiUySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_jjSGgUySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_jjSGgkySEeOJsZQjUjgN8Q" name="lehrveranstaltungFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_ji1aikySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_jjSGg0ySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WzLuIUw8EeOieqSHuBo-SQ" name="Stundenplan" generalizations="_WzLuIEw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VBMMEEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WzLuIkw8EeOieqSHuBo-SQ" position="554.0,-65.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WzLuI0w8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WzLuKEw8EeOieqSHuBo-SQ" name="studienhalbjahr">
+      <modelElement href="stundenplantool.uml#_VLBdhkw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_EarQUEw9EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_EZVzkEw9EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WzLuKUw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzLuKkw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzLuK0w8EeOieqSHuBo-SQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZyfgEw9EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_EZVzlEw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_EZyfgUw9EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_EZyfgkw9EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EZyfg0w9EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WzLuLEw8EeOieqSHuBo-SQ" name="setStudienhalbjahr">
+      <modelElement href="stundenplantool.uml#_VBMMEUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WzLuLkw8EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_EZyfhEw9EeOieqSHuBo-SQ" name="studienhalbjahr">
+        <modelElement href="stundenplantool.uml#_EZVzkkw9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_EZyfhUw9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EZougEw9EeOieqSHuBo-SQ" name="getStudienhalbjahr">
+      <modelElement href="stundenplantool.uml#_EZMCkEw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_EZougUw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_EZougkw9EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_EZVzkUw9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_EZoug0w9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EZouhEw9EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_EZMCkUw9EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_EZouhUw9EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_EZouhkw9EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_EZVzk0w9EeOieqSHuBo-SQ"/>
+        <type xmi:id="_EZouh0w9EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WzU4EEw8EeOieqSHuBo-SQ" name="Zeitslot" associationsOut="_RHMlokySEeOJsZQjUjgN8Q" generalizations="_WzLuNUw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VBVWAEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_WzU4EUw8EeOieqSHuBo-SQ" position="116.0,-64.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WzU4Ekw8EeOieqSHuBo-SQ" label="+"/>
+    <attributes xmi:id="_WzU4E0w8EeOieqSHuBo-SQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="stundenplantool.uml#_VLBdh0w8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WzU4FEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzU4FUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_y579cEw8EeOieqSHuBo-SQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzU4F0w8EeOieqSHuBo-SQ" name="zeitslotanfangszeit">
+      <modelElement href="stundenplantool.uml#_VLBdiEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_y6YpYEw8EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_y32SwUw8EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WzU4GEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzU4GUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzU4Gkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WzU4G0w8EeOieqSHuBo-SQ" name="zeitslotendzeit">
+      <modelElement href="stundenplantool.uml#_VLKncEw8EeOieqSHuBo-SQ"/>
+      <stereotypes xmi:id="_y6FucEw8EeOieqSHuBo-SQ" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_y32SwEw8EeOieqSHuBo-SQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WzU4HEw8EeOieqSHuBo-SQ" label="-"/>
+      <cardinality xmi:id="_WzU4HUw8EeOieqSHuBo-SQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WzU4Hkw8EeOieqSHuBo-SQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RHC0q0ySEeOJsZQjUjgN8Q" defaultValue="new Vector&lt;Integer>()" name="belegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_RGTNyUySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_RHC0rEySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_RGTNykySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RHC0rUySEeOJsZQjUjgN8Q" name="LegacyStyledElement">
+        <modelElement href="stundenplantool.uml#_RGTNzEySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_RHC0rkySEeOJsZQjUjgN8Q" label="-"/>
+      <cardinality xmi:id="_RHC0r0ySEeOJsZQjUjgN8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_RHC0sEySEeOJsZQjUjgN8Q" name="Vector">
+        <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WzU4H0w8EeOieqSHuBo-SQ" name="setzeitslotendzeit">
+      <modelElement href="stundenplantool.uml#_VBVWAUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_WzU4IUw8EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_5nPi8Ew8EeOieqSHuBo-SQ" name="zeitslotendzeit">
+        <modelElement href="stundenplantool.uml#_0aysMUw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_5nPi8Uw8EeOieqSHuBo-SQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_y6iaYEw8EeOieqSHuBo-SQ" name="getzeitslotendzeit">
+      <modelElement href="stundenplantool.uml#_y3tI0Ew8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_y6iaYUw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_RGc-wEySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_RGTNxkySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_RGc-wUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_y6iaZEw8EeOieqSHuBo-SQ" name="getzeitslotanfangszeit">
+      <modelElement href="stundenplantool.uml#_y3tI0Uw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_y6iaZUw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_RGmvwEySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_RGTNx0ySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_RGmvwUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_y6rkUEw8EeOieqSHuBo-SQ" name="setzeitslotanfangszeit">
+      <modelElement href="stundenplantool.uml#_y3tI0kw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_y6rkUUw8EeOieqSHuBo-SQ" label="+"/>
+      <parameters xmi:id="_RHC0oEySEeOJsZQjUjgN8Q" name="zeitslotanfangszeit">
+        <modelElement href="stundenplantool.uml#_RGTNyEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_RHC0oUySEeOJsZQjUjgN8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_y6rkVEw8EeOieqSHuBo-SQ" name="toString">
+      <modelElement href="stundenplantool.uml#_y3tI1Ew8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_y6rkVUw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_y6rkVkw8EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_y32SxEw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_y6rkV0w8EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RHC0okySEeOJsZQjUjgN8Q" name="getbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_RGTNwEySEeOJsZQjUjgN8Q"/>
+      <stereotypes xmi:id="_RHC0o0ySEeOJsZQjUjgN8Q" name="Generics">
+        <modelElement href="stundenplantool.uml#_RGTNwkySEeOJsZQjUjgN8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_RHC0pEySEeOJsZQjUjgN8Q" label="+"/>
+      <outParameters xmi:id="_RHC0pUySEeOJsZQjUjgN8Q">
+        <modelElement href="stundenplantool.uml#_RGTNwUySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_RHC0pkySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RHC0p0ySEeOJsZQjUjgN8Q" name="setbelegungsFremdschluesselID">
+      <modelElement href="stundenplantool.uml#_RGTNw0ySEeOJsZQjUjgN8Q"/>
+      <visibility xmi:id="_RHC0qEySEeOJsZQjUjgN8Q" label="+"/>
+      <parameters xmi:id="_RHC0qUySEeOJsZQjUjgN8Q" name="belegungsFremdschluesselID">
+        <modelElement href="stundenplantool.uml#_RGTNxEySEeOJsZQjUjgN8Q"/>
+        <type xmi:id="_RHC0qkySEeOJsZQjUjgN8Q" name="Vector">
+          <modelElement href="stundenplantool.uml#_IANvoExpEeOIwPzrZdFLJQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

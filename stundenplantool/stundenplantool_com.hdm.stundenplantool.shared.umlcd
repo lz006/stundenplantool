@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WAXxIEw8EeOieqSHuBo-SQ">
+  <modelElement href="stundenplantool.uml#_U3gEkUw8EeOieqSHuBo-SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Wo5wwUw8EeOieqSHuBo-SQ" targetItem="_Wo5wwkw8EeOieqSHuBo-SQ" sourceItem="_Wo5wwEw8EeOieqSHuBo-SQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Wo5wwEw8EeOieqSHuBo-SQ" sourceConnectionVisual="_Wo5wwUw8EeOieqSHuBo-SQ" text="&lt;p>&#xD;&#xA;FieldVerifier validates that the name the user enters is valid.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;This class is in the &lt;code>shared&lt;/code> package because we use it in both&#xD;&#xA;the client code and on the server. On the client, we verify that the name is&#xD;&#xA;valid before sending an RPC request so the user doesn't have to wait for a&#xD;&#xA;network round trip to get feedback. On the server, we verify that the name is&#xD;&#xA;correct to ensure that the input is correct regardless of where the RPC&#xD;&#xA;originates.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;When creating a class that is used on both the client and the server, be sure&#xD;&#xA;that all code is translatable and does not use native JavaScript. Code that&#xD;&#xA;is not translatable (such as code that interacts with a database or the file&#xD;&#xA;system) cannot be compiled into client side JavaScript. Code that uses native&#xD;&#xA;JavaScript (such as Widgets) cannot be run on the server.&#xD;&#xA;&lt;/p>" item="_Wo5wwkw8EeOieqSHuBo-SQ">
+    <modelElement href="stundenplantool.uml#_VL61aEw8EeOieqSHuBo-SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wo5wwkw8EeOieqSHuBo-SQ" comments="_Wo5wwEw8EeOieqSHuBo-SQ" targetConnectionVisual="_Wo5wwUw8EeOieqSHuBo-SQ" name="FieldVerifier">
+    <modelElement href="stundenplantool.uml#_U_sXQEw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_Wo5ww0w8EeOieqSHuBo-SQ" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Wo5wxEw8EeOieqSHuBo-SQ" label="+"/>
+    <operations xmi:id="_Wo5wxUw8EeOieqSHuBo-SQ" name="isValidName" staticOperation="true">
+      <modelElement href="stundenplantool.uml#_U_sXQUw8EeOieqSHuBo-SQ"/>
+      <visibility xmi:id="_Wo5wxkw8EeOieqSHuBo-SQ" label="+"/>
+      <outParameters xmi:id="_Wo5wx0w8EeOieqSHuBo-SQ">
+        <modelElement href="stundenplantool.uml#_U_sXQ0w8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_Wo5wyEw8EeOieqSHuBo-SQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wo5wyUw8EeOieqSHuBo-SQ" name="name">
+        <modelElement href="stundenplantool.uml#_U_sXQkw8EeOieqSHuBo-SQ"/>
+        <type xmi:id="_Wo5wykw8EeOieqSHuBo-SQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Wo5wy0w8EeOieqSHuBo-SQ" name="businessobject">
+    <modelElement href="stundenplantool.uml#_U3y_gkw8EeOieqSHuBo-SQ"/>
+    <visualProperties xmi:id="_Wo5wzEw8EeOieqSHuBo-SQ" position="-134.0,48.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
