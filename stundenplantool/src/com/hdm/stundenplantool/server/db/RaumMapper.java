@@ -62,7 +62,7 @@ public Vector <Belegung> findAll() {
          		}
          	}
    
-   public Raum findByKey(int key) {
+   public Raum findByKey(Vector<Integer> key) {
    Connection con = DBConnection.connection();
             		try{
             		Statement stmt = con.createStatement();

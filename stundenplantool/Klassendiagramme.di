@@ -10,6 +10,9 @@
     <availablePage>
       <emfPageIdentifier href="Klassendiagramme.notation#_T-9nMEuFEeO8NseycbT5zw"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="Klassendiagramme.notation#_auUooFN8EeOzxpS7vXPnQw"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -22,6 +25,9 @@
         </children>
         <children>
           <emfPageIdentifier href="Klassendiagramme.notation#_T-9nMEuFEeO8NseycbT5zw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="Klassendiagramme.notation#_auUooFN8EeOzxpS7vXPnQw"/>
         </children>
       </children>
     </windows>
